@@ -1,0 +1,24 @@
+import javax.swing.*;
+
+public class HLMain {
+
+	//MAIN
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MainWindow mainWindow = new MainWindow();
+		mainWindow.setVisible(true);
+		
+		ExerciseDialog dialog = new ExerciseDialog();
+		dialog.setVisible(true);
+		
+		JOptionPane.showMessageDialog(mainWindow, "Message");
+		
+		
+		
+		
+		
+	//END OF MAIN	
+	}
+
+}
